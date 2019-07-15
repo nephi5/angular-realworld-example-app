@@ -7,8 +7,8 @@ describe('ng-demo App', () => {
     page = new Ng2RealApp();
   });
 
-  it('should display message saying app works', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toContain('conduit');
+  it('should display message saying app works', async () => {
+    await page.navigateTo();
+    expect(await page.getParagraphText()).toContain('conduit');
   });
 });
