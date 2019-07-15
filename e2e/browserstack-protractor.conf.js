@@ -32,24 +32,24 @@ const config = {
     //   browserName: 'Chrome',
     //   browser_version: '62.0'
     // }
-    {
-      browserName: 'Chrome',
-      device: 'Samsung Galaxy S9 Plus',
-      realMobile: 'true',
-      os_version: '9.0'
-    }
+    // {
+    //   browserName: 'Chrome',
+    //   device: 'Samsung Galaxy S9 Plus',
+    //   realMobile: 'true',
+    //   os_version: '9.0'
+    // }
     // {
     //   os: 'OS X',
     //   os_version: 'High Sierra',
     //   browserName: 'Safari',
     //   browser_version: '11.0'
     // }
-    // {
-    //   browserName: 'Safari',
-    //   device: 'iPhone 8 Plus',
-    //   realMobile: 'true',
-    //   os_version: '11'
-    // }
+    {
+      browserName: 'Safari',
+      device: 'iPhone 8 Plus',
+      realMobile: 'true',
+      os_version: '11'
+    }
   ],
   baseUrl: 'https://nephi5.github.io/angular-realworld-example-app/',
   framework: 'jasmine',
