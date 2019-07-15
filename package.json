@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint --force",
     "e2e": "ng e2e",
-    "publish": "ng build --prod --base-href=/angular-realworld-example-app/ && ngh --no-silent --dir=dist/"
+    "publish": "ng build --prod --base-href=/angular-realworld-example-app/ && ngh --no-silent --dir=dist/",
+    "e2e-browserstack": "protractor e2e/browserstack-protractor.conf.js"
   },
   "pre-commit": [
     "lint"
