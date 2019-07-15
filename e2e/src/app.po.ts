@@ -1,11 +1,11 @@
 import { browser, element, by } from 'protractor';
 
 export class Ng2RealApp {
-  navigateTo() {
-    return browser.get('/');
+  async navigateTo() {
+    return browser.get('/angular-realworld-example-app/');
   }
 
-    getParagraphText() {
+  async getParagraphText() {
     return element(by.css('.logo-font')).getText();
   }
 }
