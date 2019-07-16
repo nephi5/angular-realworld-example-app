@@ -13,8 +13,8 @@ const commonCapabilities = {
   'browserstack.key': browserstackKey,
   'browserstack.local': true,
   name: 'Bstack-[Protractor]',
-  'browserstack.debug': true,
-  'browserstack.networkLogs': true
+  'browserstack.debug': true
+  // 'browserstack.networkLogs': true
 };
 
 const desktopCabilities = {
