@@ -10,7 +10,9 @@
     "lint": "ng lint --force",
     "e2e": "ng e2e",
     "publish": "ng build --prod --base-href=/angular-realworld-example-app/ && ngh --no-silent --dir=dist/",
-    "e2e-browserstack": "protractor e2e/browserstack-protractor.conf.js"
+    "e2e-browserstack": "protractor e2e/browserstack-protractor.conf.js",
+    "e2e-appium": "protractor e2e/appium-protractor.conf.js",
+    "webdriver-ios": "webdriver-manager update --ios"
   },
   "pre-commit": [
     "lint"
